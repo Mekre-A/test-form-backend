@@ -1,5 +1,4 @@
 import mysql from "mysql";
-import { createConnection } from "net";
 
 const connection = mysql.createConnection({
   host: "localhost",
