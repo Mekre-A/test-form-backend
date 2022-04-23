@@ -11,7 +11,7 @@ router.post("/signup", (0, express_validator_1.body)("firstName").isLength({
     min: 1,
 }), (0, express_validator_1.body)("lastName").isLength({
     min: 1,
-}), (0, express_validator_1.body)("email").isEmail(), (0, express_validator_1.body)("phoneNumber").isMobilePhone(["en-US"]), (0, express_validator_1.body)("password")
+}), (0, express_validator_1.body)("emailAddress").isEmail(), (0, express_validator_1.body)("phoneNumber").isMobilePhone(["en-US"]), (0, express_validator_1.body)("password")
     .isStrongPassword({
     minUppercase: 1,
     minLowercase: 1,

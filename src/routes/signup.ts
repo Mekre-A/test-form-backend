@@ -12,7 +12,7 @@ router.post(
   body("lastName").isLength({
     min: 1,
   }),
-  body("email").isEmail(),
+  body("emailAddress").isEmail(),
   body("phoneNumber").isMobilePhone(["en-US"]),
   body("password")
     .isStrongPassword({
