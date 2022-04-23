@@ -14,7 +14,7 @@ Make port 4567 available as this project uses a static port instead of a .env fi
 
 ## Step 4
 
-Run npm init on the terminal inside the project folder
+Run npm install on the terminal inside the project folder
 
 ## Step 5
 
